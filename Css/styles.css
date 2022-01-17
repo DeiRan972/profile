@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(90deg,rgb(184, 59, 94, 0.9), rgb(106, 44, 112, 0.7));
+
+}
+a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+h1,p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.moi{
+    margin: 0 auto;
+    width: 40%;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.moi img{
+    width: 130px;
+    height: 150px;
+    border-radius: 60%;
+}
+.moi a{
+    text-decoration: none;
+    background: linear-gradient(90deg,rgb(184, 59, 94, 0.9), rgb(106, 44, 112, 0.7));
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.moi a:hover{
+    transition: .2s all ease-in-out;
+    background: linear-gradient(90deg,rgb(184, 59, 94, 0.9), rgb(106, 44, 112, 0.7));
+    background-color: rgba(0,0,0,0.6);
+    color:white
+}
+.contact {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    height: 150px;
+}
+.contact h1{
+padding-top: 40px;
+}
+.contact i{
+    font-size: 25px;
+    color:rgb(106, 44, 112, 0.8) ;
+    margin: 7px;
+}
+.contact a{
+    font-size: 20px;
+    color: rgb(106, 44, 112, 0.8);
+}
+
+@media (max-width:1230px) {
+    h1{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+}
+@media (max-width:820px) {
+    .moi,.contact{
+        width: 100%;
+    }
+h1{
+    font-size:15px;
+}
+p{
+    font-size: 12px;
+}
+.contact i{
+    display: inline-flex;
+}
+}
+@media (max-width:390px) {
+    .moi,.contact{
+        width: 100%;
+    }
+    h1{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
